@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environment
+.venv
+
+# Secrets — never commit
+.env
+
+# Generated / local outputs
+_mermaid_cache.js
+decision_tree.html
+hallucination_detection.md
+prompt_to_tree.md
+
+# uv boilerplate
+main.py
+
+# macOS
+.DS_Store
